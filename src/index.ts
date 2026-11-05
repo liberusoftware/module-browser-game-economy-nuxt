@@ -1,2 +1,8 @@
-/** Registration metadata for this skeleton; not a domain or API schema. */
-export const moduleDefinition = {id: 'module-boilerplate-nuxt', presentation: 'nuxt-vue', status: 'skeleton'} as const;
+/** Skeleton registration metadata; this is not a domain/API contract. */
+export const moduleDefinition = {
+  "id": "module-browser-game-economy-nuxt",
+  "presentation": "nuxt-vue",
+  "capabilityKey": "liberusoftware/module-browser-game-economy",
+  "status": "skeleton",
+  "documentation": "https://github.com/liberusoftware/documentation/blob/main/projects/browser-game/nuxt/economy.md"
+} as const;
